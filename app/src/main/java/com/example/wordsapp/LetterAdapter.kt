@@ -18,6 +18,7 @@ package com.example.wordsapp
 import android.content.Intent
 import android.os.Build
 import android.view.LayoutInflater
+import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.view.accessibility.AccessibilityNodeInfo
@@ -33,6 +34,7 @@ class LetterAdapter :
 
     // Generates a [CharRange] from 'A' to 'Z' and converts it to a list
     private val list = ('A').rangeTo('Z').toList()
+
 
     /**
      * Provides a reference for the views needed to display items in your list.
